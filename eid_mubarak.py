@@ -426,7 +426,7 @@ def get_personal_memories():
 
 # Check if today is Eid
 def is_eid():
-    # Use a specific timezone (e.g., Asia/Karachi for Pakistan Standard Time)
+    # Use a specific timezone (e.g., Asia/Karachii for Pakistan Standard Time)
     timezone = pytz.timezone('Asia/Karachi')
     today = datetime.now(timezone).date()
     return today.month == 6 and today.day == 7
