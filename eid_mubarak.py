@@ -522,12 +522,12 @@ def create_floating_image(image_url, size=200, rotation=5, delay=0):
 # Main function
 def main():
     # Add timezone information to the app
-    st.sidebar.markdown("### Celebration Details")
-    st.sidebar.markdown("**Timezone:** Asia/Karachi (Pakistan Standard Time)")
-    st.sidebar.markdown("**Current Date in Selected Timezone:**")
-    timezone = pytz.timezone('Asia/Karachi')
-    current_time = datetime.now(timezone)
-    st.sidebar.markdown(f"{current_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    # st.sidebar.markdown("### Celebration Details")
+    # st.sidebar.markdown("**Timezone:** Asia/Karachi (Pakistan Standard Time)")
+    # st.sidebar.markdown("**Current Date in Selected Timezone:**")
+    # timezone = pytz.timezone('Asia/Karachi')
+    # current_time = datetime.now(timezone)
+    # st.sidebar.markdown(f"{current_time.strftime('%Y-%m-%d %H:%M:%S')}")
     
     local_css()
     generate_confetti()
